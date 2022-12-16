@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class EnableButton : MonoBehaviour
 {
     [SerializeField]
-    private AudioClip m_AudioClip;
+    private AudioClip m_AudioClip,errorEfx;
 
     private Button m_Button;
 
@@ -24,14 +24,22 @@ public class EnableButton : MonoBehaviour
         
         if (IsEnable!=m_Button.IsInteractable()&&!m_Button.IsInteractable())
         {
-            PlaySound();
+            AudioManager.Instance.PlaySound(m_AudioClip);
         }
         IsEnable = m_Button.IsInteractable();
     }
 
     public void PlaySound()
     {
-        AudioManager.Instance.PlaySound(m_AudioClip);
+        if (GameManager.Instance.checkSequence())
+        {
+            AudioManager.Instance.PlaySound(m_AudioClip);
+        }
+       
+        else
+        {
+            AudioManager.Instance.PlaySound(errorEfx);
+        }
         Debug.Log("Play sound");
     }
 }

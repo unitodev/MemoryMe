@@ -19,7 +19,7 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     private List<Button> tempsequence;
 
-    
+    public static GameManager Instance;
 
     [SerializeField] 
     private int Level = 1;
@@ -30,7 +30,12 @@ public class GameManager : MonoBehaviour
     {
         Show, Wait,Press,End
     }
- 
+
+    private void Start()
+    {
+        Instance = this;
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -54,11 +59,12 @@ public class GameManager : MonoBehaviour
                  }
                  break;
              case  State.End:
+                 //show panel gameover
                  break;
         }
     }
 
-    bool checkSequence()
+   public bool checkSequence()
     {
        // tempsequence;
        // currentsequence;
@@ -78,6 +84,7 @@ public class GameManager : MonoBehaviour
 
     async Task showSequence()
     {
+        await Task.Delay(TimeSpan.FromSeconds(1));
         foreach (var button in tempsequence)
         {
             await Task.Delay(TimeSpan.FromSeconds(.5));
