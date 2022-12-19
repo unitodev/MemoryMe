@@ -11,7 +11,7 @@ using Random = UnityEngine.Random;
 public class GameManager : MonoBehaviour
 {
     [SerializeField] 
-    private State CurrentState;
+    public State CurrentState;
     [SerializeField]
     private List<Button> buttonList;
     [SerializeField]
@@ -26,6 +26,8 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] 
     private TextMeshProUGUI text;
+    [SerializeField]
+    private GameObject GameoverPanel,WaitPanel;
     public enum State
     {
         Show, Wait,Press,End
@@ -51,8 +53,10 @@ public class GameManager : MonoBehaviour
                  break;
              case State.Wait:
                  text.text ="Level : "+ Level.ToString();
+                 WaitPanel.SetActive(true);
                  break;
              case  State.Press:
+                 WaitPanel.SetActive(false);
                  if (checkSequence()&& tempsequence.Count == currentsequence.Count)
                  {
                      CurrentState = State.Show;
@@ -66,9 +70,7 @@ public class GameManager : MonoBehaviour
 
    public bool checkSequence()
     {
-       // tempsequence;
-       // currentsequence;
-       bool correct = false;
+        bool correct = false;
        foreach (var index in currentsequence.Select((button, i) =>new {button,i} ))
        {
            if (index.button == tempsequence[index.i])
@@ -117,6 +119,7 @@ public class GameManager : MonoBehaviour
             currentsequence.Add(button);
             if (!checkSequence() )
             {
+                GameoverPanel.SetActive(true);
                 CurrentState = State.End;
             }
         }

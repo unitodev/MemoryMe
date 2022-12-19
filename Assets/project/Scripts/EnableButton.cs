@@ -12,6 +12,7 @@ public class EnableButton : MonoBehaviour
     private Button m_Button;
 
     private bool IsEnable;
+    
     // Start is called before the first frame update
     private void Start()
     {
@@ -31,15 +32,16 @@ public class EnableButton : MonoBehaviour
 
     public void PlaySound()
     {
-        if (GameManager.Instance.checkSequence())
+        if (!GameManager.Instance.checkSequence())
+        {
+            AudioManager.Instance.PlaySound(errorEfx);
+            return;
+        }
+        if (GameManager.Instance.CurrentState!=GameManager.State.End)
         {
             AudioManager.Instance.PlaySound(m_AudioClip);
         }
-       
-        else
-        {
-            AudioManager.Instance.PlaySound(errorEfx);
-        }
+ 
         Debug.Log("Play sound");
     }
 }
