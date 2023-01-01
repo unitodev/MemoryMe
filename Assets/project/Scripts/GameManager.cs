@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using DG.Tweening;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -25,9 +26,20 @@ public class GameManager : MonoBehaviour
     private int Level = 1;
 
     [SerializeField] 
-    private TextMeshProUGUI text;
+    private TextMeshProUGUI Leveltext,stateText;
+
+    [SerializeField] 
+    private Transform TimeImage;
     [SerializeField]
     private GameObject GameoverPanel,WaitPanel;
+
+    [SerializeField] 
+    private Transform GameoverpanelFront;
+    [SerializeField] 
+    private TextMeshProUGUI Scoretext,HScoreText;
+    public bool isPause = false;
+    private int heightScore = 0;
+    public InterstitialAdExample AdExample;
     public enum State
     {
         Show, Wait,Press,End
@@ -36,6 +48,8 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         Instance = this;
+        heightScore = PlayerPrefs.GetInt("memoryme-hightScore");
+        
     }
 
     // Update is called once per frame
@@ -52,20 +66,36 @@ public class GameManager : MonoBehaviour
                      CurrentState = State.Wait;
                  break;
              case State.Wait:
-                 text.text ="Level : "+ Level.ToString();
+                 Leveltext.text ="Level : "+ Level.ToString();
                  WaitPanel.SetActive(true);
                  break;
              case  State.Press:
                  WaitPanel.SetActive(false);
-                 if (checkSequence()&& tempsequence.Count == currentsequence.Count)
+                 
+
+                 if (TimeImage.localScale.x > 0&&!isPause)
                  {
-                     CurrentState = State.Show;
+                     TimeImage.localScale =new Vector3(TimeImage.localScale.x-Time.deltaTime*0.25f,1,1);
+                 }
+                 else if(TimeImage.localScale.x <= 0)
+                 {
+                     GameOver();
+                     CurrentState = State.End;
                  }
                  break;
              case  State.End:
-                 //show panel gameover
+                 Scoretext.text = Level.ToString();
+                 HScoreText.text = heightScore.ToString();
+                 if (Level >= heightScore)
+                 {
+                     HScoreText.text = Level.ToString();
+                     //saveHscore
+                     PlayerPrefs.SetInt("memoryme-hightScore",Level);
+                 }
                  break;
         }
+
+        stateText.text = CurrentState.ToString();
     }
 
    public bool checkSequence()
@@ -109,6 +139,7 @@ public class GameManager : MonoBehaviour
     }
     public void Addtosequence(Button button)
     {
+        TimeImage.localScale = Vector3.one;
         if (CurrentState == State.Show)
         {
             tempsequence.Add(button);
@@ -119,9 +150,27 @@ public class GameManager : MonoBehaviour
             currentsequence.Add(button);
             if (!checkSequence() )
             {
-                GameoverPanel.SetActive(true);
-                CurrentState = State.End;
+                GameOver();
+            }
+            if (checkSequence()&& tempsequence.Count == currentsequence.Count)
+            {
+                CurrentState = State.Show;
             }
         }
+    }
+
+    private void GameOver()
+    {
+        AdExample.LoadAd();
+        GameoverPanel.SetActive(true);
+        GameoverpanelFront.DOScale(1, .5f).SetEase(Ease.InCubic);
+        CurrentState = State.End;
+       
+    }
+    public void Reset()
+    {
+        CurrentState = State.Show;
+        Level = 1;
+        tempsequence.Clear();
     }
 }

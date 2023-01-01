@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5ce086a5-8206-4cda-8032-a22d85ca1508" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Memory Me/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Memory Me/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Memory Me/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MemoryMe/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Background.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Background/Background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Background/Background.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Demo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Demo/Demo.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Demo/Demo.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/Read Me.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/Read Me.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/chunkfiveex.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/chunkfiveex/Chunk Fife Ex Mustertexte.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/chunkfiveex/Chunk Fife Ex Mustertexte.pdf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/chunkfiveex/Chunkfive Ex.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/chunkfiveex/Chunkfive Ex.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/chunkfiveex/FL Font Table-ChunkFive Ex.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/chunkfiveex/FL Font Table-ChunkFive Ex.pdf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/chunkfiveex/SIL Open Font License 1.1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/chunkfiveex/SIL Open Font License 1.1.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/FiraSans-Bold.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/FiraSans-Bold.otf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/FiraSans-BoldItalic.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/FiraSans-BoldItalic.otf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/FiraSans-Book.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/FiraSans-Book.otf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/FiraSans-BookItalic.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/FiraSans-BookItalic.otf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/FiraSans-Eight.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/FiraSans-Eight.otf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/FiraSans-EightItalic.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/FiraSans-EightItalic.otf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/FiraSans-ExtraBold.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/FiraSans-ExtraBold.otf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/FiraSans-ExtraBoldItalic.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/FiraSans-ExtraBoldItalic.otf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/FiraSans-ExtraLight.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/FiraSans-ExtraLight.otf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/FiraSans-ExtraLightItalic.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/FiraSans-ExtraLightItalic.otf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/FiraSans-Four.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/FiraSans-Four.otf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/FiraSans-FourItalic.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/FiraSans-FourItalic.otf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/FiraSans-Hair.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/FiraSans-Hair.otf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/FiraSans-HairItalic.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/FiraSans-HairItalic.otf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/FiraSans-Heavy.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/FiraSans-Heavy.otf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/FiraSans-HeavyItalic.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/FiraSans-HeavyItalic.otf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/FiraSans-Italic.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/FiraSans-Italic.otf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/FiraSans-Light.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/FiraSans-Light.otf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/FiraSans-LightItalic.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/FiraSans-LightItalic.otf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/FiraSans-Medium.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/FiraSans-Medium.otf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/FiraSans-MediumItalic.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/FiraSans-MediumItalic.otf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/FiraSans-Regular.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/FiraSans-Regular.otf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/FiraSans-SemiBold.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/FiraSans-SemiBold.otf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/FiraSans-SemiBoldItalic.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/FiraSans-SemiBoldItalic.otf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/FiraSans-Thin.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/FiraSans-Thin.otf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/FiraSans-ThinItalic.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/FiraSans-ThinItalic.otf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/FiraSans-Two.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/FiraSans-Two.otf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/FiraSans-TwoItalic.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/FiraSans-TwoItalic.otf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/FiraSans-Ultra.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/FiraSans-Ultra.otf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/FiraSans-UltraItalic.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/FiraSans-UltraItalic.otf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/FiraSans-UltraLight.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/FiraSans-UltraLight.otf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/FiraSans-UltraLightItalic.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/FiraSans-UltraLightItalic.otf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/SIL Open Font License.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/firasansheavy/SIL Open Font License.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/foo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/foo/foo.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/foo/foo.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/foo/read-this.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/foo/read-this.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/foo/typodermic-eula-02-2014.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/foo/typodermic-eula-02-2014.pdf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/gilam.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/gilam/EULA Free Font License Ver. 2.0.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/gilam/EULA Free Font License Ver. 2.0.pdf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/gilam/Gilam-BlackDEMO.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/gilam/Gilam-BlackDEMO.otf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/gilam/Gilam-ThinItalicDEMO.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/gilam/Gilam-ThinItalicDEMO.otf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/kaushanscript.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/kaushanscript/KaushanScript-Regular.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/kaushanscript/KaushanScript-Regular.otf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/kaushanscript/SIL Open Font License.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/kaushanscript/SIL Open Font License.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/molot.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/molot/blogfonts.com.url" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/molot/blogfonts.com.url.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/molot/molot-eula.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/molot/molot-eula.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/molot/molot.regular.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/molot/molot.regular.otf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/peacesans.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/peacesans/FREE FONT LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/peacesans/FREE FONT LICENSE.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/peacesans/Peace Sans Webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/peacesans/Peace Sans Webfont.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/peacesans/Peace Sans.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/peacesans/Peace Sans.otf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/peacesans/Peace Sans.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Fonts/peacesans/Peace Sans.pdf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PNG.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PNG/Title 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PNG/Title 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PNG/Title 10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PNG/Title 10.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PNG/Title 11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PNG/Title 11.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PNG/Title 12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PNG/Title 12.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PNG/Title 13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PNG/Title 13.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PNG/Title 14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PNG/Title 14.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PNG/Title 15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PNG/Title 15.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PNG/Title 16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PNG/Title 16.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PNG/Title 17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PNG/Title 17.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PNG/Title 18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PNG/Title 18.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PNG/Title 19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PNG/Title 19.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PNG/Title 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PNG/Title 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PNG/Title 20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PNG/Title 20.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PNG/Title 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PNG/Title 3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PNG/Title 4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PNG/Title 4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PNG/Title 5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PNG/Title 5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PNG/Title 6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PNG/Title 6.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PNG/Title 7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PNG/Title 7.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PNG/Title 8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PNG/Title 8.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PNG/Title 9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PNG/Title 9.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PSD.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PSD/Pattern.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PSD/Pattern/Crazy.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PSD/Pattern/Crazy.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PSD/Pattern/Planet.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PSD/Pattern/Planet.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PSD/Pattern/Road.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PSD/Pattern/Road.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PSD/Pattern/Sweet.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PSD/Pattern/Sweet.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PSD/Pattern/USA.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PSD/Pattern/USA.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PSD/Title 1.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PSD/Title 1.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PSD/Title 10.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PSD/Title 10.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PSD/Title 11.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PSD/Title 11.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PSD/Title 12.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PSD/Title 12.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PSD/Title 13.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PSD/Title 13.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PSD/Title 14.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PSD/Title 14.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PSD/Title 15.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PSD/Title 15.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PSD/Title 16.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PSD/Title 16.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PSD/Title 17.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PSD/Title 17.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PSD/Title 18.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PSD/Title 18.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PSD/Title 19.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PSD/Title 19.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PSD/Title 2.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PSD/Title 2.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PSD/Title 20.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PSD/Title 20.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PSD/Title 3.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PSD/Title 3.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PSD/Title 4.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PSD/Title 4.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PSD/Title 5.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PSD/Title 5.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PSD/Title 6.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PSD/Title 6.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PSD/Title 7.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PSD/Title 7.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PSD/Title 8.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PSD/Title 8.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PSD/Title 9.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/PSD/Title 9.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Read me.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Read me.docx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Read me.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/Read me.pdf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/10Button_Midl_Yellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/10Button_Midl_Yellow.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/11Button_Midl_Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/11Button_Midl_Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/12Button_Long_Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/12Button_Long_Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/13Button_Long_Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/13Button_Long_Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/14Button_Long_Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/14Button_Long_Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/15Button_Long_Yellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/15Button_Long_Yellow.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/16bttn-little.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/16bttn-little.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/17bttn-little.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/17bttn-little.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/18bttn-little.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/18bttn-little.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/19bttn-midl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/19bttn-midl.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/1button_green_middle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/1button_green_middle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/20bttn-midl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/20bttn-midl.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/21bttn-midl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/21bttn-midl.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/22Button_Midl_Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/22Button_Midl_Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/23Button_Midl_Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/23Button_Midl_Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/24Button_Midl_Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/24Button_Midl_Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/25Button_Long_Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/25Button_Long_Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/26Button_Long_Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/26Button_Long_Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/27Button_Long_Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/27Button_Long_Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/28button_green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/28button_green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/29button_blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/29button_blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/2button_blue_middle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/2button_blue_middle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/30button_red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/30button_red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/3button_green_middle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/3button_green_middle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/4button_green_middle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/4button_green_middle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/5button_blue_middle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/5button_blue_middle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/6button_green_middle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/6button_green_middle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/7button_green_middle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/7button_green_middle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/8Button_Midl_Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/8Button_Midl_Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/9Button_Midl_Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/9Button_Midl_Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/buttons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/buttons.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/buttons.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/buttons.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/buttons_Back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/buttons_Back.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/AdsControllerAutoSelector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/AdsControllerAutoSelector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/AdsControllerEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/AdsControllerEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mixer.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mixer/MainMixer.mixer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mixer/MainMixer.mixer.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu/Main Camera Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu/Main Camera Profile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ad Examples.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ad Examples/BannerAdExample.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ad Examples/BannerAdExample.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ad Examples/InterstitialAdExample.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ad Examples/InterstitialAdExample.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ad Examples/RewardedAdExample.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ad Examples/RewardedAdExample.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AdsController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AdsController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/com.unity.template.ads-mobile.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/com.unity.template.ads-mobile.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/project/Scripts/ButtonAct.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/project/Scripts/ButtonAct.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/project/Scripts/EnableButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/project/Scripts/EnableButton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/project/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/project/Scripts/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/project/Scripts/LevelManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/project/Scripts/LevelManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/project/sound/animal/275154__bird-man__moo.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/project/sound/animal/275154__bird-man__moo.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Tutorial/Editor/TutorialHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/project/Scripts/AdsInitializer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/project/Scripts/EnableButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/project/Scripts/FunctionalButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/project/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/project/Scripts/InterstitialAdExample.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/project/Scripts/LevelManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/project/Scripts/ScaleLoop.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/project/Scripts/ScreenApi.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProjectId" id="2JhK6uFTzwQGOIcPQWXTgcHLpbB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;do_not_show_solution_notification&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\unixz\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\unixz\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\unixz\\AppData\\Local\\Symbols\\src&quot;
+    ]
+  }
+}</component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.15f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-projectPath C:\unity\MemoryMe -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="C:\unity\MemoryMe" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.15f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\unity\MemoryMe -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="C:\unity\MemoryMe" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5ce086a5-8206-4cda-8032-a22d85ca1508" name="Changes" comment="" />
+      <created>1672524705618</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1672524705618</updated>
+      <workItem from="1672524709131" duration="167000" />
+      <workItem from="1672525202257" duration="170000" />
+      <workItem from="1672525391219" duration="151000" />
+      <workItem from="1672525564476" duration="121000" />
+      <workItem from="1672525699920" duration="2010000" />
+      <workItem from="1672530246149" duration="3113000" />
+      <workItem from="1672583267741" duration="10418000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
