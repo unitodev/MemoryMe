@@ -15,7 +15,7 @@ public class GameManager : MonoBehaviour
     public State CurrentState;
     [SerializeField]
     private List<Button> buttonList;
-    [SerializeField]
+  [SerializeField]
     private List<Button> currentsequence;
     [SerializeField]
     private List<Button> tempsequence;
@@ -25,8 +25,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] 
     private int Level = 1;
 
-    [SerializeField] 
-    private TextMeshProUGUI Leveltext,stateText;
+   
 
     [SerializeField] 
     private Transform TimeImage;
@@ -35,8 +34,11 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] 
     private Transform GameoverpanelFront;
+    [Header("Text")]
     [SerializeField] 
-    private TextMeshProUGUI Scoretext,HScoreText;
+    private TextMeshProUGUI Leveltext;
+    [SerializeField] 
+    private TextMeshProUGUI Scoretext,HScoreText,stateText;
     public bool isPause = false;
     private int heightScore = 0;
     public InterstitialAdExample AdExample;

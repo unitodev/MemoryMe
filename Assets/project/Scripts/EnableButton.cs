@@ -9,8 +9,10 @@ using UnityEngine.UI;
 public class EnableButton : MonoBehaviour
 {
     [SerializeField]
-    private AudioClip m_AudioClip,errorEfx;
+    private AudioClip m_AudioClip,correctEfx,errorEfx;
 
+    [SerializeField] 
+    private ParticleSystem _particleSystem;
     private Button m_Button;
 
     private bool IsEnable;
@@ -56,7 +58,10 @@ public class EnableButton : MonoBehaviour
         }
         if (GameManager.Instance.CurrentState!=GameManager.State.End)
         {
+            _particleSystem.transform.DOMove(transform.position,0f);
+            _particleSystem.Play();
             AudioManager.Instance.PlaySound(m_AudioClip);
+            AudioManager.Instance.PlaySound(correctEfx);
         }
     }
 }
