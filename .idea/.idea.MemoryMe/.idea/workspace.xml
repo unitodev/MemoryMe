@@ -87,6 +87,8 @@
       <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.unity3d.mediation.unityads-adapter-1.1.0.aar.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.unity3d.services.identifiers.unity-services-identifiers-1.0.0.aar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.unity3d.services.identifiers.unity-services-identifiers-1.0.0.aar.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/mainTemplate.gradle.DISABLED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/mainTemplate.gradle.DISABLED.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/org.jetbrains.annotations-13.0.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/org.jetbrains.annotations-13.0.jar.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/org.jetbrains.kotlin.kotlin-stdlib-1.5.21.jar" beforeDir="false" />
@@ -97,13 +99,35 @@
       <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/org.jetbrains.kotlinx.kotlinx-coroutines-android-1.4.3.jar.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/org.jetbrains.kotlinx.kotlinx-coroutines-core-jvm-1.4.3.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/org.jetbrains.kotlinx.kotlinx-coroutines-core-jvm-1.4.3.jar.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu/Main Camera Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu/Main Camera Profile.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/project/Scripts/EnableButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/project/Scripts/EnableButton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorial.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorial/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorial/Editor/TutorialHelper.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorial/Editor/TutorialHelper.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorial/Images.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorial/Images/unity-ads-banner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorial/Images/unity-ads-banner.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorial/Tutorial Project Settings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorial/Tutorial Project Settings.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorial/TutorialHelper.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorial/TutorialHelper.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorial/WelcomePage.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorial/WelcomePage.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/project/Font/Modak-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/project/Font/Modak-Regular SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/project/Scripts/AudioManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/project/Scripts/AudioManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/project/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/project/Scripts/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/project/Scripts/LevelManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/project/Scripts/LevelManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/project/Scripts/ScaleLoop.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/project/Scripts/ScaleLoop.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/project/Scripts/SliderVolume.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/project/Scripts/SliderVolume.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/project/prefabs/Optionpanel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/project/prefabs/Optionpanel.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/AndroidResolverDependencies.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/AndroidResolverDependencies.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GvhProjectSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GvhProjectSettings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +135,6 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Tutorial/Editor/TutorialHelper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/project/Scripts/AdsInitializer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/project/Scripts/EnableButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/project/Scripts/FunctionalButton.cs" root0="FORCE_HIGHLIGHTING" />
@@ -149,7 +172,7 @@
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.15f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath C:\unity\MemoryMe -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\unity\MemoryMe" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -157,7 +180,7 @@
       <method v="2" />
     </configuration>
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.15f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\unity\MemoryMe -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\unity\MemoryMe" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -201,6 +224,9 @@
       <workItem from="1672530246149" duration="3113000" />
       <workItem from="1672583267741" duration="10418000" />
       <workItem from="1672754576101" duration="3425000" />
+      <workItem from="1672801781702" duration="546000" />
+      <workItem from="1673200296256" duration="3604000" />
+      <workItem from="1673486797470" duration="4976000" />
     </task>
     <servers />
   </component>

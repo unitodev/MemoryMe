@@ -13,6 +13,7 @@ public class SliderVolume : MonoBehaviour
     void Start()
     {
         m_Slider = GetComponent<Slider>();
+        m_Slider.value = PlayerPrefs.GetFloat(name);
         AudioManager.Instance.SetVolumeMixer(name, m_Slider.value);
         m_Slider.onValueChanged.AddListener(val=>
             AudioManager.Instance.SetVolumeMixer(name,m_Slider.value));

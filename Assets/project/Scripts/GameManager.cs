@@ -68,7 +68,7 @@ public class GameManager : MonoBehaviour
                      CurrentState = State.Wait;
                  break;
              case State.Wait:
-                 Leveltext.text ="Level : "+ Level.ToString();
+                 Leveltext.text = Level.ToString();
                  WaitPanel.SetActive(true);
                  break;
              case  State.Press:

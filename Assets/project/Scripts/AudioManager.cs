@@ -28,6 +28,10 @@ public class AudioManager : MonoBehaviour
     {
         m_AudioSource = GetComponent<AudioSource>();
         m_Mixer = GetComponent<AudioSource>().outputAudioMixerGroup.audioMixer;
+       
+        
+        m_Mixer.SetFloat("music", PlayerPrefs.GetFloat("music"));
+        m_Mixer.SetFloat("Efx", PlayerPrefs.GetFloat("Efx"));
     }
 
     public void PlaySound(AudioClip clip)
@@ -46,6 +50,7 @@ public class AudioManager : MonoBehaviour
         {
             m_Mixer.SetFloat(name, volume);
         }
+        PlayerPrefs.SetFloat(name,volume);
     }
 
     public void PauseAudio()
