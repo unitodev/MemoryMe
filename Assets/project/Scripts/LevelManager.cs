@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour
@@ -17,6 +18,8 @@ public class LevelManager : MonoBehaviour
 
    [SerializeField] 
    private float duration;
+
+   public UnityEvent OnTransitionEnd;
    private void Awake()
    {
       if (Instance == null)
@@ -49,6 +52,6 @@ public class LevelManager : MonoBehaviour
             sceneAsync.allowSceneActivation = true;
          })
       );
-      sequence.Append(pos.DOLocalMoveX(startpos.x, duration).SetEase(Ease));
+      sequence.Append(pos.DOLocalMoveX(startpos.x, duration).SetEase(Ease)).OnComplete(() => OnTransitionEnd.Invoke());
    }
 }

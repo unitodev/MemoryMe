@@ -60,7 +60,7 @@ public class GameManager : MonoBehaviour
         switch (CurrentState)
         {
              case State.Show:
-
+                 AdExample.LoadAd();
                      RandomButton();
                  
                  //show current button
@@ -163,7 +163,8 @@ public class GameManager : MonoBehaviour
 
     private void GameOver()
     {
-        AdExample.LoadAd();
+        
+        AdExample.ShowAd();
         GameoverPanel.SetActive(true);
         GameoverpanelFront.DOScale(1, .5f).SetEase(Ease.InCubic);
         CurrentState = State.End;

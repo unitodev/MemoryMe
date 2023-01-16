@@ -34,7 +34,7 @@ public class InterstitialAdExample : MonoBehaviour, IUnityAdsLoadListener, IUnit
     // Implement Load Listener and Show Listener interface methods: 
     public void OnUnityAdsAdLoaded(string adUnitId)
     {
-        ShowAd();
+      //  ShowAd();
         // Optionally execute code if the Ad Unit successfully loads content.
     }
  

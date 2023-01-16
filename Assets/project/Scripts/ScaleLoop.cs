@@ -8,31 +8,33 @@ public class ScaleLoop : MonoBehaviour
     [SerializeField] private bool isScale, isRotate,isMove;
 
     [SerializeField] private Vector3 pos;
+
+    [SerializeField] private float delay;
     // Start is called before the first frame update
     void Start()
     {
         if(isScale)
-        DOscaleLoop(transform);
+        DOscaleLoop();
         if (isRotate)
-            DOrotateLoop(transform);
+            DOrotateLoop();
         if(isMove)
             DoMoveLoop();
     }
 
-    public void DOscaleLoop(Transform transform)
+    public void DOscaleLoop()
     {
-        transform.DOScale(.5f, .5f).SetEase(Ease.InCubic).SetLoops(-1, LoopType.Yoyo).SetDelay(.2f);
+        transform.DOScale(.8f, .5f).SetEase(Ease.InCubic).SetLoops(-1, LoopType.Yoyo).SetDelay(.2f).SetDelay(delay);
        
     }
-    public void DOrotateLoop(Transform transform)
+    public void DOrotateLoop()
     {
         Vector3 axis = new Vector3(0, 0, 1);
-        transform.DORotate(axis*10, .5f).SetEase(Ease.Linear).SetLoops(-1, LoopType.Incremental);
+        transform.DORotate(axis*10, .5f).SetEase(Ease.Linear).SetLoops(-1, LoopType.Incremental).SetDelay(delay);
         
     }
 
     public void DoMoveLoop()
     {
-        transform.DOMove(transform.position+pos, .5f).SetEase(Ease.InCubic).SetLoops(-1, LoopType.Yoyo);
+        transform.DOMove(transform.position+pos, .5f).SetEase(Ease.InCubic).SetLoops(-1, LoopType.Yoyo).SetDelay(delay);
     }
 }
