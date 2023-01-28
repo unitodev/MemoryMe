@@ -176,4 +176,9 @@ public class GameManager : MonoBehaviour
         Level = 1;
         tempsequence.Clear();
     }
+
+    public void tutorial()
+    {
+        isPause = true;
+    }
 }

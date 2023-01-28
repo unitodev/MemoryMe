@@ -16,14 +16,13 @@ public class EnableButton : MonoBehaviour
     private Button m_Button;
 
     private bool IsEnable;
-    private Light2D _light2D;
+
 
     // Start is called before the first frame update
     private void Start()
     {
         m_Button = GetComponent<Button>();
-        IsEnable=m_Button.IsInteractable();
-        _light2D = GetComponentInChildren<Light2D>();
+        IsEnable = m_Button.IsInteractable();
     }
 
     private void FixedUpdate()
@@ -34,11 +33,9 @@ public class EnableButton : MonoBehaviour
         {
             AudioManager.Instance.PlaySound(m_AudioClip);
             DOscaleinout(m_Button.transform,.5f,1f);
-
-
-
         }
         IsEnable = m_Button.IsInteractable();
+        
     }
     public void DOscaleinout(Transform transform,float start,float to)
     {
