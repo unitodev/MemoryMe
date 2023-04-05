@@ -51,7 +51,7 @@ public class GameManager : MonoBehaviour
     {
         Instance = this;
         heightScore = PlayerPrefs.GetInt("memoryme-hightScore");
-        
+        CurrentState = State.Show;
     }
 
     // Update is called once per frame
@@ -60,11 +60,19 @@ public class GameManager : MonoBehaviour
         switch (CurrentState)
         {
              case State.Show:
+#if UNITY_ANDROID
                  AdExample.LoadAd();
+#endif
+                 
                      RandomButton();
                  
                  //show current button
-               showSequence().GetAwaiter().OnCompleted(()=>CurrentState=State.Press);
+#if UNITY_ANDROID
+                      showSequence().GetAwaiter().OnCompleted(()=>CurrentState=State.Press);
+#endif
+#if UNITY_WEBGL
+                     StartCoroutine(ShowSequenceCoroutine(()=>CurrentState=State.Press));
+#endif
                      CurrentState = State.Wait;
                  break;
              case State.Wait:
@@ -130,6 +138,21 @@ public class GameManager : MonoBehaviour
 
         await Task.Yield();
     }
+    IEnumerator ShowSequenceCoroutine(Action donext)
+    {
+        yield return new WaitForSeconds(1);
+        foreach (var button in tempsequence)
+        {
+            
+            yield return new WaitForSeconds(.5f);
+            button.interactable = false;
+            yield return new WaitForSeconds(.5f);
+            button.interactable = true;
+            yield return new WaitForSeconds(.5f);
+        }
+
+        donext();
+    }
     void RandomButton()
     {
        var index= Random.Range(0,buttonList.Count);
@@ -164,7 +187,7 @@ public class GameManager : MonoBehaviour
     private void GameOver()
     {
         
-        AdExample.ShowAd();
+       // AdExample.ShowAd();
         GameoverPanel.SetActive(true);
         GameoverpanelFront.DOScale(1, .5f).SetEase(Ease.InCubic);
         CurrentState = State.End;

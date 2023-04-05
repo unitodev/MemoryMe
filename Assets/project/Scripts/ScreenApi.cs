@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+#if  UNITY_ANDROID
+
 public class ScreenApi : MonoBehaviour
 {
 [SerializeField]
@@ -50,3 +52,5 @@ private Canvas _canvas;
         }
     }
 }
+
+#endif
