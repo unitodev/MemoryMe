@@ -5,19 +5,20 @@ using DG.Tweening;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.SceneManagement;
+using UnityEngine.Serialization;
 
 public class LevelManager : MonoBehaviour
 {
    public static LevelManager Instance;
-   [SerializeField] 
-   private Transform pos;
+    [SerializeField] 
+   private Transform _pos;
 
-   private Vector3 startpos;
-   [SerializeField] 
-   private Ease Ease;
+   private Vector3 _startpos;
+    [SerializeField] 
+   private Ease ease;
 
-   [SerializeField] 
-   private float duration;
+    [SerializeField] 
+   private float _duration;
 
    public UnityEvent OnTransitionEnd;
    private void Awake()
@@ -37,7 +38,7 @@ public class LevelManager : MonoBehaviour
 
    private void Start()
    {
-      startpos = pos.position;
+      _startpos = _pos.position;
      
    }
 
@@ -47,11 +48,11 @@ public class LevelManager : MonoBehaviour
       
       var sceneAsync= SceneManager.LoadSceneAsync(index);
       sceneAsync.allowSceneActivation = false;
-      sequence.Append(pos.DOLocalMove(Vector3.zero, duration).SetEase(Ease).OnComplete(() =>
+      sequence.Append(_pos.DOLocalMove(Vector3.zero, _duration).SetEase(ease).OnComplete(() =>
          {
             sceneAsync.allowSceneActivation = true;
          })
       );
-      sequence.Append(pos.DOLocalMoveX(startpos.x, duration).SetEase(Ease)).OnComplete(() => OnTransitionEnd.Invoke());
+      sequence.Append(_pos.DOLocalMoveX(_startpos.x, _duration).SetEase(ease)).OnComplete(() => OnTransitionEnd.Invoke());
    }
 }

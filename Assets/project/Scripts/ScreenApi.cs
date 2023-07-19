@@ -7,24 +7,24 @@ public class ScreenApi : MonoBehaviour
 [SerializeField]
 private Canvas _canvas;
 
-    private RectTransform panelSafeArea;
+    private RectTransform _panelSafeArea;
 
-    private Rect currentSafeArea = new Rect();
+    private Rect _currentSafeArea = new Rect();
 
-    private ScreenOrientation currentOrientation = ScreenOrientation.AutoRotation;
+    private ScreenOrientation _currentOrientation = ScreenOrientation.AutoRotation;
     // Start is called before the first frame update
     void Start()
     {
-        panelSafeArea = GetComponent<RectTransform>();
-        currentOrientation = Screen.orientation;
-        currentSafeArea = Screen.safeArea;
+        _panelSafeArea = GetComponent<RectTransform>();
+        _currentOrientation = Screen.orientation;
+        _currentSafeArea = Screen.safeArea;
 
         ApplySafeArea();
     }
 
     void ApplySafeArea()
     {
-        if(panelSafeArea==null)return;
+        if(_panelSafeArea==null)return;
         
         Rect safeArea = Screen.safeArea;
         Vector2 anchorMin = safeArea.position;
@@ -34,17 +34,17 @@ private Canvas _canvas;
 
         anchorMax.x /= _canvas.pixelRect.width;
         anchorMax.y /= _canvas.pixelRect.height;
-        panelSafeArea.anchorMin = anchorMin;
-        panelSafeArea.anchorMax = anchorMax;
-        currentOrientation = Screen.orientation;
-        currentSafeArea = Screen.safeArea;
+        _panelSafeArea.anchorMin = anchorMin;
+        _panelSafeArea.anchorMax = anchorMax;
+        _currentOrientation = Screen.orientation;
+        _currentSafeArea = Screen.safeArea;
 
     }
 
     // Update is called once per frame
     void Update()
     {
-        if ((currentOrientation != Screen.orientation) || (currentSafeArea != Screen.safeArea))
+        if ((_currentOrientation != Screen.orientation) || (_currentSafeArea != Screen.safeArea))
         {
             ApplySafeArea();
         }

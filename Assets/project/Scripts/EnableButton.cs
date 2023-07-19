@@ -1,40 +1,44 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
+
 using DG.Tweening;
 using UnityEngine;
-using UnityEngine.Rendering.Universal;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 public class EnableButton : MonoBehaviour
-{
+{ 
     [SerializeField]
-    private AudioClip m_AudioClip,correctEfx,errorEfx;
+    private AudioClip _mAudioClip;
+
+   [SerializeField]
+    private AudioClip _correctEfx;
+
+   [SerializeField]
+    private AudioClip _errorEfx;
 
     [SerializeField] 
     private ParticleSystem _particleSystem;
-    private Button m_Button;
+    private Button _button;
 
-    private bool IsEnable;
+    private bool _isEnable;
 
 
     // Start is called before the first frame update
     private void Start()
     {
-        m_Button = GetComponent<Button>();
-        IsEnable = m_Button.IsInteractable();
+        _button = GetComponent<Button>();
+        _isEnable = _button.IsInteractable();
     }
 
     private void FixedUpdate()
     {
         
         
-        if (IsEnable!=m_Button.IsInteractable()&&!m_Button.IsInteractable())
+        if (_isEnable!=_button.IsInteractable()&&!_button.IsInteractable())
         {
-            AudioManager.Instance.PlaySound(m_AudioClip);
-            DOscaleinout(m_Button.transform,.5f,1f);
+            AudioManager.Instance.PlaySound(_mAudioClip);
+            DOscaleinout(_button.transform,.5f,1f);
         }
-        IsEnable = m_Button.IsInteractable();
+        _isEnable = _button.IsInteractable();
         
     }
     public void DOscaleinout(Transform transform,float start,float to)
@@ -47,18 +51,18 @@ public class EnableButton : MonoBehaviour
 
     public void PlaySound()
     { 
-        DOscaleinout(m_Button.transform,.5f,1f);
+        DOscaleinout(_button.transform,.5f,1f);
         if (!GameManager.Instance.checkSequence())
         {
-            AudioManager.Instance.PlaySound(errorEfx);
+            AudioManager.Instance.PlaySound(_errorEfx);
             return;
         }
         if (GameManager.Instance.CurrentState!=GameManager.State.End)
         {
             _particleSystem.transform.DOMove(transform.position,0f);
             _particleSystem.Play();
-            AudioManager.Instance.PlaySound(m_AudioClip);
-            AudioManager.Instance.PlaySound(correctEfx);
+            AudioManager.Instance.PlaySound(_mAudioClip);
+            AudioManager.Instance.PlaySound(_correctEfx);
         }
     }
 }

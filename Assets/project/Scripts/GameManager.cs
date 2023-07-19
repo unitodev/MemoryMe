@@ -6,39 +6,50 @@ using System.Threading.Tasks;
 using DG.Tweening;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
 using Random = UnityEngine.Random;
 
 public class GameManager : MonoBehaviour
 {
-    [SerializeField] 
+     
     public State CurrentState;
-    [SerializeField]
-    private List<Button> buttonList;
-  [SerializeField]
-    private List<Button> currentsequence;
-    [SerializeField]
-    private List<Button> tempsequence;
+     [SerializeField]
+    private List<Button> _buttonList;
+   [SerializeField]
+    private List<Button> _currentsequence;
+     [SerializeField]
+    private List<Button> _tempsequence;
 
     public static GameManager Instance;
 
-    [SerializeField] 
-    private int Level = 1;
+     [SerializeField] 
+    private int _level = 1;
 
    
 
-    [SerializeField] 
-    private Transform TimeImage;
-    [SerializeField]
-    private GameObject GameoverPanel,WaitPanel;
+      [SerializeField] 
+    private Transform _timeImage;
+     [SerializeField]
+    private GameObject _gameoverPanel;
+
+     [SerializeField]
+    private GameObject _waitPanel;
 
     [SerializeField] 
-    private Transform GameoverpanelFront;
+    private Transform _gameoverpanelFront;
     [Header("Text")]
     [SerializeField] 
-    private TextMeshProUGUI Leveltext;
+    private TextMeshProUGUI _leveltext;
+   [SerializeField] 
+    private TextMeshProUGUI _scoretext;
+
+     [SerializeField] 
+    private TextMeshProUGUI _HscoreText;
+
     [SerializeField] 
-    private TextMeshProUGUI Scoretext,HScoreText,stateText;
+    private TextMeshProUGUI stateText;
+
     public bool isPause = false;
     private int heightScore = 0;
     public InterstitialAdExample AdExample;
@@ -68,31 +79,31 @@ public class GameManager : MonoBehaviour
                      CurrentState = State.Wait;
                  break;
              case State.Wait:
-                 Leveltext.text = Level.ToString();
-                 WaitPanel.SetActive(true);
+                 _leveltext.text = _level.ToString();
+                 _waitPanel.SetActive(true);
                  break;
              case  State.Press:
-                 WaitPanel.SetActive(false);
+                 _waitPanel.SetActive(false);
                  
 
-                 if (TimeImage.localScale.x > 0&&!isPause)
+                 if (_timeImage.localScale.x > 0&&!isPause)
                  {
-                     TimeImage.localScale =new Vector3(TimeImage.localScale.x-Time.deltaTime*0.25f,1,1);
+                     _timeImage.localScale =new Vector3(_timeImage.localScale.x-Time.deltaTime*0.25f,1,1);
                  }
-                 else if(TimeImage.localScale.x <= 0)
+                 else if(_timeImage.localScale.x <= 0)
                  {
                      GameOver();
                      CurrentState = State.End;
                  }
                  break;
              case  State.End:
-                 Scoretext.text = Level.ToString();
-                 HScoreText.text = heightScore.ToString();
-                 if (Level >= heightScore)
+                 _scoretext.text = _level.ToString();
+                 _HscoreText.text = heightScore.ToString();
+                 if (_level >= heightScore)
                  {
-                     HScoreText.text = Level.ToString();
+                     _HscoreText.text = _level.ToString();
                      //saveHscore
-                     PlayerPrefs.SetInt("memoryme-hightScore",Level);
+                     PlayerPrefs.SetInt("memoryme-hightScore",_level);
                  }
                  break;
         }
@@ -103,9 +114,9 @@ public class GameManager : MonoBehaviour
    public bool checkSequence()
     {
         bool correct = false;
-       foreach (var index in currentsequence.Select((button, i) =>new {button,i} ))
+       foreach (var index in _currentsequence.Select((button, i) =>new {button,i} ))
        {
-           if (index.button == tempsequence[index.i])
+           if (index.button == _tempsequence[index.i])
                 correct = true;
            else
            {
@@ -119,7 +130,7 @@ public class GameManager : MonoBehaviour
     async Task showSequence()
     {
         await Task.Delay(TimeSpan.FromSeconds(1));
-        foreach (var button in tempsequence)
+        foreach (var button in _tempsequence)
         {
             await Task.Delay(TimeSpan.FromSeconds(.5));
             button.interactable = false;
@@ -132,29 +143,29 @@ public class GameManager : MonoBehaviour
     }
     void RandomButton()
     {
-       var index= Random.Range(0,buttonList.Count);
+       var index= Random.Range(0,_buttonList.Count);
       
       
-           Addtosequence(buttonList[index]);
-           Level = tempsequence.Count;
-        currentsequence.Clear();
+           Addtosequence(_buttonList[index]);
+           _level = _tempsequence.Count;
+        _currentsequence.Clear();
     }
     public void Addtosequence(Button button)
     {
-        TimeImage.localScale = Vector3.one;
+        _timeImage.localScale = Vector3.one;
         if (CurrentState == State.Show)
         {
-            tempsequence.Add(button);
+            _tempsequence.Add(button);
         }
         else if(CurrentState == State.Press)
         {
             
-            currentsequence.Add(button);
+            _currentsequence.Add(button);
             if (!checkSequence() )
             {
                 GameOver();
             }
-            if (checkSequence()&& tempsequence.Count == currentsequence.Count)
+            if (checkSequence()&& _tempsequence.Count == _currentsequence.Count)
             {
                 CurrentState = State.Show;
             }
@@ -165,16 +176,16 @@ public class GameManager : MonoBehaviour
     {
         
         AdExample.ShowAd();
-        GameoverPanel.SetActive(true);
-        GameoverpanelFront.DOScale(1, .5f).SetEase(Ease.InCubic);
+        _gameoverPanel.SetActive(true);
+        _gameoverpanelFront.DOScale(1, .5f).SetEase(Ease.InCubic);
         CurrentState = State.End;
        
     }
     public void Reset()
     {
         CurrentState = State.Show;
-        Level = 1;
-        tempsequence.Clear();
+        _level = 1;
+        _tempsequence.Clear();
     }
 
     public void tutorial()

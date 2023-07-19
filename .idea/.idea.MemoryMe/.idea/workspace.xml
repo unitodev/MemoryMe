@@ -1,48 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ce086a5-8206-4cda-8032-a22d85ca1508" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MemoryMe/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MemoryMe/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/project/Scripts/EnableButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/project/Scripts/EnableButton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/project/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/project/Scripts/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/project/Spritesheet/round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/project/Spritesheet/round.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/project/Spritesheet/round.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/project/Spritesheet/round.xml.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/project/Spritesheet/roundOutline.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/project/Spritesheet/roundOutline.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/project/Spritesheet/roundOutline.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/project/Spritesheet/roundOutline.xml.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/project/Spritesheet/round_nodetails.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/project/Spritesheet/round_nodetails.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/project/Spritesheet/round_nodetails.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/project/Spritesheet/round_nodetails.xml.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/project/Spritesheet/round_nodetailsOutline.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/project/Spritesheet/round_nodetailsOutline.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/project/Spritesheet/round_nodetailsOutline.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/project/Spritesheet/round_nodetailsOutline.xml.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/project/Spritesheet/square.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/project/Spritesheet/square.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/project/Spritesheet/square.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/project/Spritesheet/square.xml.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/project/Spritesheet/squareOutline.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/project/Spritesheet/squareOutline.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/project/Spritesheet/squareOutline.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/project/Spritesheet/squareOutline.xml.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/project/Spritesheet/square_nodetails.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/project/Spritesheet/square_nodetails.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/project/Spritesheet/square_nodetails.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/project/Spritesheet/square_nodetails.xml.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/promo/game1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/promo/game1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/promo/game2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/promo/game2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/promo/gameover.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/promo/gameover.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/promo/home.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/promo/home.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/promo/option.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/promo/option.jpg" afterDir="false" />
-    </list>
+    <list default="true" id="5ce086a5-8206-4cda-8032-a22d85ca1508" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,27 +30,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;do_not_show_solution_notification&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Discover.Launch.Via.Unity": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "do_not_show_solution_notification": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\unixz\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\unixz\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache&quot;,
-      &quot;C:\\Users\\unixz\\AppData\\Local\\Symbols\\src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\unixz\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\DecompilerCache",
+      "C:\\Users\\unixz\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\SourcesCache",
+      "C:\\Users\\unixz\\AppData\\Local\\Symbols\\src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.4f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath C:\unity\MemoryMe -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="C:\unity\MemoryMe" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.4f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\unity\MemoryMe -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\unity\MemoryMe" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
@@ -146,6 +120,7 @@
       <workItem from="1673867414859" duration="7599000" />
       <workItem from="1674326764640" duration="3102000" />
       <workItem from="1674827290976" duration="608000" />
+      <workItem from="1689771027316" duration="2628000" />
     </task>
     <servers />
   </component>

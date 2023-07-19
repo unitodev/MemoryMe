@@ -3,13 +3,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
+using UnityEngine.Serialization;
 
 public class AudioManager : MonoBehaviour
 {
-    [SerializeField]
-    private AudioSource m_AudioSource;
+      [SerializeField]
+    private AudioSource _audioSource;
     public static AudioManager Instance;
-    private AudioMixer m_Mixer;
+    private AudioMixer _mixer;
     private void Awake()
     {
         if (Instance == null)
@@ -26,17 +27,17 @@ public class AudioManager : MonoBehaviour
 
     private void Start()
     {
-        m_AudioSource = GetComponent<AudioSource>();
-        m_Mixer = GetComponent<AudioSource>().outputAudioMixerGroup.audioMixer;
+        _audioSource = GetComponent<AudioSource>();
+        _mixer = GetComponent<AudioSource>().outputAudioMixerGroup.audioMixer;
        
         
-        m_Mixer.SetFloat("music", PlayerPrefs.GetFloat("music"));
-        m_Mixer.SetFloat("Efx", PlayerPrefs.GetFloat("Efx"));
+        _mixer.SetFloat("music", PlayerPrefs.GetFloat("music"));
+        _mixer.SetFloat("Efx", PlayerPrefs.GetFloat("Efx"));
     }
 
     public void PlaySound(AudioClip clip)
     {
-        m_AudioSource.PlayOneShot(clip);
+        _audioSource.PlayOneShot(clip);
     }
 
     public void SetVolume(float volume)
@@ -46,20 +47,20 @@ public class AudioManager : MonoBehaviour
 
     public void SetVolumeMixer(string name,float volume)
     {
-        if (m_Mixer != null)
+        if (_mixer != null)
         {
-            m_Mixer.SetFloat(name, volume);
+            _mixer.SetFloat(name, volume);
         }
         PlayerPrefs.SetFloat(name,volume);
     }
 
     public void PauseAudio()
     {
-        m_AudioSource.Pause();
+        _audioSource.Pause();
     }
 
     public void ResumeAudio()
     {
-        m_AudioSource.UnPause();
+        _audioSource.UnPause();
     }
 }
